@@ -13,5 +13,5 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
           curl -X POST -H "Content-Type: application/json" \
-          -d "{\"content\": \"📢 新しいリリースが公開されました！\\n📦 [${{ github.event.release.name }}] ${{ github.event.release.html_url }}\"}" \
+          -d '{"content": "📢 リリース通知テスト"}' \
           $DISCORD_WEBHOOK
