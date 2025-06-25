@@ -24,7 +24,7 @@
 
 ## 🔧 インストール方法（PyInstallerバージョン）
 
-1. [Releases](https://github.com/TwiVtools/twitchslot/releases) ページから最新の `.zip` をダウンロード
+1. [Releases](https://github.com/TwiVtools/TwiVslot/releases) ページから最新の `.zip` をダウンロード
 2. 解凍して `TwiV_Slot.exe` を実行
 3. 初回起動時にTwitch連携の設定が求められます
 
